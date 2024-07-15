@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.container{
+    background-image: url('movieIMG.jpg');
+    min-width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    /* backdrop-filter: ; */
+    display: flex;
+    align-items: center;
+    /* ovflow:hidden */
+}
+
+
+.mini-container{
+    width: 80%;
+}
+
+.inputsTag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    gap: 15px;
+    text-align: center;
+    margin-left: 30%;
+    background-color: black;
+    border-radius: 20px;
+    padding: 20px;
+
+}
+
+.search-bar{
+    width: 80%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+   
+}
+
+.btn{
+    width: 30%;
+    /* padding: 10px; */
+    background-color: black;
+    color: blanchedalmond;
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+    box-shadow: -3px -4px 8px wheat;
+}
+
+.outcome{
+    /* background-color: black; */
+    width: 60%;
+    gap: 10px;
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: baseline;
+    gap: 25px;
+    margin-left: 15%;
+}
+
+img{
+    /* width: 300%; */
+    height: 50vh;
+}
+
+.eachOutcome{
+    background-color: black;
+}
+
+.details1{
+    margin-left: 1%;
+    padding: 3px;
+    /* word-wrap: break-word; */
+    word-break: break-all;
+    background-color: black;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 20px 1px;
+   
+}
+
+
+
+.details{
+    word-break: break-all;
+    color:white;
+    background-color:black;
+    padding: 10px;
+    border-radius: 1px 20px;
+    color: white;
+    width: 80%;
+
+}
+
+h3{
+    word-wrap: break-word;
+    margin: 2%;
+}
+
+h1{
+    margin-bottom: 5%;
+    
+}
+
+.view{
+    position: absolute;
+    /* max-width: 100%; */
+    height: 30%;
+    top:0;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;   
+    background-color: rgba(128, 114, 114, 0.58);
+    padding: 10%;
+    margin-top:6% ;
+    margin-left: 10%;
+    margin-right: 10%;
+    gap: 1.5rem;
+    /* word-wrap: break-word; */
+    /* margin-left:20% ; */
+    display: none;
+    position: absolute;
+}
+
+.view-img{
+    /* width: 100%; */
+    /* height: 30%; */
+    border-radius: 15px 1px;
+}
+
+
+.deletebtn{
+    color: white;
+    box-shadow: 0px 0px 15px black;
+    background-color: #000;
+    padding: 10px;
+    margin-bottom: 55%;
+    margin-right: 5%;
+    border-radius: 15px 1px;
+    font-size: 30px;
+    cursor: pointer;
+
+}
+
